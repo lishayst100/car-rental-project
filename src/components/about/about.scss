@@ -1,0 +1,46 @@
+.contianer-div{
+    background-color: #000;
+    padding: 80px 0px;
+}
+
+.save-title,.save-subtitle{
+    color: #fff;
+    font-weight: 900;
+    font-size: 55px;
+    text-align: center;
+}
+.save-subtitle{
+    font-size: 25px;
+}
+
+.icon-benefit{
+    font-size: 140px;
+    color: #FF1053;
+}
+
+.margin{
+    margin: 150px 0;
+}
+
+.para-text{
+    font-size: 21px;
+}
+
+
+@media (max-width:500px){
+    .para-text {
+            font-size: 16px;
+        }
+
+         .save-title,
+         .save-subtitle {
+             font-size: 25px;  
+         }
+                 .save-subtitle{
+                    font-size: 20px;
+                 }
+                                 .margin {
+                                     margin: 50px 0;
+                                 }
+
+}

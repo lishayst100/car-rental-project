@@ -1,0 +1,58 @@
+.item{
+    margin-bottom: 5px;
+    
+}
+
+.accordion{
+    max-width: 1000px;
+}
+
+
+.title-faq{
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 25px 30px;
+
+    
+}
+
+
+
+.title-faq.colored {
+    background-color: #FF1053;
+    transition: 0.3s;
+    color: #fff;
+    box-shadow: 4px 4px 10px #FF1053;
+   
+}
+
+
+.content{
+    color: black;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.content.show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+    padding: 10px 20px;
+    
+}
+
+
+@media screen and (max-width:1000px) {
+    .accordion {
+            max-width: 500px;
+        }
+}
+

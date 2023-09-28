@@ -1,0 +1,34 @@
+.text-white{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container-footer{
+padding: 120px 0;
+background-color: black;
+box-shadow: -1px -7px 12px -4px rgba(0, 0, 0, 0.91);
+    -webkit-box-shadow: -1px -7px 12px -4px rgba(0, 0, 0, 0.91);
+    -moz-box-shadow: -1px -7px 12px -4px rgba(0, 0, 0, 0.91);
+}
+
+
+.text-red{
+    color: #FF1052;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:1000px) {
+    .text-white {
+            font-size: 28px;
+            text-align: center;
+            
+        }
+     .text-red {
+                  
+            font-size: 23px;
+                   
+        }
+    
+}

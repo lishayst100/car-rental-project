@@ -1,0 +1,63 @@
+GET http://localhost:3000/api/cars/1stCTR4ww59AJhKAyyHD
+
+
+
+###
+POST http://localhost:3000/api/team
+Content-Type: application/json
+
+{
+    "name": "Caitlyn Hunt",
+    "image": "https://car-rental-ten.vercel.app/static/media/6.528b8c60ae315bc6a52a.png",
+    "position":"Manager"
+}
+
+####
+POST http://localhost:3000/api/contact
+Content-Type: application/json
+
+{
+    "name": "lishay",
+    "email":"lishayst100@gmail.com",
+    "text": "test1"
+}
+
+
+###
+POST http://localhost:3000/api/order
+Content-Type: application/json
+
+{
+    "email":"aaaaa"
+}
+
+
+###
+http://localhost:3000/api/order
+Content-Type: application/json
+
+{
+"email": "18"
+}
+####
+POST http://localhost:3000/api/order
+Content-Type: application/json
+
+{
+"address": "Lishay",
+"age": 18,
+"car": "Audi A1",
+"city": "odd" ,
+"dropOff": "Haifa",
+"dropOffDate": "2023-08-31",
+"email": "lishayst100@gmail.com",
+"firstName": "lishay",
+"lastName": "shem tov",
+"phone":"050-3321366",
+"pickUp": "Tel Aviv",
+"pickUpDate": "2023-08-23",
+"zip": 4530642
+}
+
+###
+http://localhost:3000/api/order/lishayshemtov

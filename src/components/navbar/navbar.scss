@@ -1,0 +1,63 @@
+.logo{
+    font-size: 65px;
+    color: #FF1053;
+    padding-right:5px ;
+}
+
+.car{
+    font-weight: 800;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    line-height: 0.9;
+}
+
+.rental{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 0.9;
+}
+
+.navbar-logo{
+    background-color: transparent;
+}
+
+.link-navbar{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 800;
+    color: #000;
+    transition: .3s;
+    &:hover{
+        color: #FF1053;
+    }
+}
+
+.register{
+    background-color: #FF1053;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 800;
+    border: none;
+    box-shadow: #FF1053 0px 1px 7px;
+    transition: .3s;
+    &:hover {
+            box-shadow: #FF1053 0px 1px 15px;
+        }
+}
+
+.signin {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+}
+
+.icon-footer {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
